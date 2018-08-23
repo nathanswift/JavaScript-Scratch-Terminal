@@ -1,5 +1,5 @@
-function calculateAge(Birthyear){
-	return 2018 - Birthyear;
+function calculateAge(birthYear){
+	return 2018 - birthYear;
 }
 
 var ageNate = calculateAge(1993);
@@ -9,7 +9,9 @@ console.log(ageNate, ageNicki);
 function yearsUntilRetirement(year, firstName){
 	var age = calculateAge(year);
   var retirement = 65 - age;
-  return (firstName + ' will retire in ' + retirement + ' years at a ripe old age of' + age + '.')
+  var retirementYear = year + retirement;
+  var retirementAge = 65
+  console.log(firstName + ' will retire in ' + retirementYear + ' at a ripe old age of ' + retirementAge + ' Wow that\'s only ' + retirement + ' years away!')
 }
 
-window.onload(yearUntilRetirement(1993, 'Nate'));
+yearsUntilRetirement(1993, 'Nate')
