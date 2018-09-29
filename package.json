@@ -1,0 +1,22 @@
+{
+  "name": "javascript-scratch-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "clear && node app.js && echo \n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanswift/JavaScript-Scratch-Terminal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanswift/JavaScript-Scratch-Terminal/issues"
+  },
+  "homepage": "https://github.com/nathanswift/JavaScript-Scratch-Terminal#readme",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
+}
