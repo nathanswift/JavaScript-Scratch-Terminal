@@ -2,7 +2,7 @@
   "name": "javascript-scratch-terminal",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
     "start": "clear && node app.js && echo \n"
   },
